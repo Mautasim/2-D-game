@@ -1,0 +1,21 @@
+{
+  "name": "ftd",
+  "version": "1.0.0",
+  "main": "ftd.js",
+  "scripts": {
+    "start": "node ftd",
+    "dev": "nodemon ftd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "pg": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}

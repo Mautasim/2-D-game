@@ -1,0 +1,77 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial;
+  font-weight: normal;
+  font-size: 18px;
+  color: black;
+  background-color: white;
+}
+#header1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.container {
+  margin: auto;
+  margin-top: 50px;
+  border: solid black 2px;
+  height: auto;
+  padding: 20px;
+  box-shadow: 0 0 5px 0 #000;
+}
+#login-container {
+  width: 325px;
+}
+#register-container, #profile-container  {
+  width: 500px;
+}
+#instruction-container, #stats-container {
+  width: 600px;
+}
+.label {
+  width: 100px;
+  display: inline-block;
+}
+#username, #password{
+  width: 200px;
+}
+.button {
+  background-color: white;
+  color: black;
+  padding: 3px;
+}
+ul li {
+  margin: 5px;
+  list-style-type: none;
+}
+#username-error, #password-error, #confirm-error {
+  color: red;
+  padding 2px;
+  font-size: 80%;
+}
+.flex-container {
+  display: flex;
+  justify-content: right;
+}
+.flex-container > input {
+  background-color: #AFEEEE;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 15px;
+  border: solid black 1px;
+  font-weight: bold;
+}
+.flex-container > input:hover {
+  color: #FFFACD
+}
+#stage {
+  background-color: #AFEEEE;
+}
+.style {
+  list-style-type: circle;
+}
